@@ -1,0 +1,195 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+html{
+    font-family: "open sans",sans-serif;
+}
+#navbar{
+    color: #fff;
+display: flex;
+justify-content: space-between;
+padding: 0.75rem;
+height: 70px;
+
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+#navbar ul li a{
+    padding: 0.5rem;
+
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 4px;
+
+}
+/* HOME */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid grey; 
+  background: #336ea2;
+ 
+
+
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+
+}
+#home  .image1 {
+  align-self: flex-end;
+}
+
+
+#home .name h2{
+    margin-top: 1.5rem;
+}
+    
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+    margin-bottom:1.25rem;
+    
+
+}
+#home a {
+    margin-top: 1.2rem;
+    background:#336ea2;
+    padding: 0.2rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 1px;
+
+}
+#home a:hover {
+    color: #336ea2;
+background:#fff;
+border:0.5px solid #336ea2
+
+}
+/* lessons */
+#lessons{
+    
+    margin-bottom: 4rem;
+    padding: 1rem;
+}
+
+#lessons h2 {
+    color: #fff;
+    background: #062e51;
+margin-left: auto;
+margin-right: auto;
+width: 150px;
+}
+#lessons .lessons {
+    display: flex;
+   
+    justify-content: space-between;
+   text-align: center;
+}
+#lessons .les{
+    width: 33%;
+    padding: 0.5rem;
+}
+#lessons .lessons h3 {
+    background: #336ea2; margin-top: 1.5rem;
+    border-radius: 5px;
+    border:0.5px solid #062e51;
+    color: #fff;
+}
+
+
+/* teachers */
+#teachers{
+    color: #fff;
+    padding: 1rem;
+    height: 350px;
+
+}
+#teachers p {
+    opacity: 0.6;
+    font-style: italic;
+}
+#teachers .items  {
+display: flex;
+justify-content: space-between;
+text-align: center;
+
+}
+#teachers .items .item{
+    width: 33%;
+    padding: 0.5rem;
+
+}
+#contact{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.form-control{
+    display: flex;
+    margin: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+ form{
+    color: #fff;
+    margin-left: 15px;
+ }
+ button{
+    
+    margin-bottom: 20px;
+    height: 35px;
+background-color: limegreen;
+
+ }
+ .information{
+    width: 70%;
+    
+ }
+ .mapouter {
+    position: relative;
+    text-align: right;
+    width: 600px;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 400px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.gmap_iframe {
+    width: 600px !important;
+    height: 400px !important;
+}
+
+
+
+
+
+
+
+
+
