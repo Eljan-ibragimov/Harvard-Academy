@@ -18,11 +18,21 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" media="(max-width:500px" href="css/mobile.css">
+    
+<link rel="stylesheet" href="/random.js">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
 
 <body>
+    <!-- AOS ANIMATION -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
     <header class="bg-dark-blue">
         <div class="container">
             <nav id="navbar">
@@ -59,23 +69,36 @@
 
         </div>
     </section>
+    <!-- <div class="random">
+        <img  id="change" src="/random-img/" alt="">
+        <script>
+            let images=["1.jpg" "2.jpg" "3.jpg" "4.jpg" "5.jpg" "6.jpg" "7.jpg" "8.jpg"];
+            let imagesLenght = images.length;
+            let randomNumber = math.random();
+            randomNumber=randomNumber*imagesLenght;
+            randomNumber= Math.floor(randomNumber);
+            let choosenImage = images[randomNumber];
+            change.scr=choosenImage
+        </script>
+    </div>  -->
     <section id="lessons">
+
         <h2 class="text-center heading-medium ">LESSONS</h2>
         <div class="lessons">
-            <article class="les">
+            <article class="les"  data-aos="flip-up">
                 <h3>İngilis dili dərsləri</h3>
 
                 <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quis maiores accusamus asperiores
                     pariatur consectetur officiis sapiente ipsam, animi, recusandae, tenetur est blanditiis deserunt?
                     Numquam reiciendis incidunt adipisci vero doloribus?</P>
             </article>
-            <article class="les">
+            <article class="les"  data-aos="flip-up">
                 <h3>Rus dili dərsləri </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur perferendis sed eaque culpa fugit
                     minima fugiat excepturi inventore? Quia consectetur esse earum corrupti amet nobis nostrum unde ab
                     aut eaque!</p>
             </article>
-            <article class="les">
+            <article class="les"  data-aos="flip-up">
                 <h3>alman dili dərsləri</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat, nulla dignissimos magni quae ad
                     ipsum fugit soluta, placeat libero nam debitis sunt quis praesentium tempora, fuga sint nisi
@@ -91,17 +114,17 @@
             TEACHERS
         </h3>
         <div class="items">
-            <article class="item">
+            <article class="item" data-aos="fade-right">
                 <img src="image/elcan.png" alt="English teacher" width="200">
                 <h3>Elcan Ibrahimov</h3>
                 <p>English teacher IELTS/grammar </p>
             </article>
-            <article class="item">
+            <article class="item" data-aos="fade-up" >
                 <img src="image/elcan.png" alt="English teacher" width="200">
                 <h3>Elcan Ibrahimov</h3>
                 <p>English teacher IELTS/grammar </p>
             </article>
-            <article class="item">
+            <article class="item" data-aos="fade-left">
                 <img src="image/elcan.png" alt="English teacher" width="200">
                 <h3>Elcan Ibrahimov</h3>
                 <p>English teacher IELTS/grammar </p>
@@ -136,36 +159,30 @@
             </form>
         </div>
         <div class="mapouter">
-            <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+            <div class="gmap_canvas" data-aos="zoom-in-down" style="transform: 5px; transition: 2s ease;"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
                     marginwidth="0"
                     src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=işərişəhər m/s&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                    href="https://embedmapgenerator.com/">embed google maps in website</a></div>
-            
+                    href="https://embedmapgenerator.com/" >embed google maps in website</a></div>
+
         </div>
 
         <div class="information">
             <h3>Haqqımızda</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quia nam, dignissimos non doloremque
-                commodi quidem deleniti, at voluptas dicta fugit dolore ullam ipsa illo harum iusto. Reiciendis ex
-                laudantium ipsam repudiandae laborum, velit eius commodi hic eligendi fuga excepturi officiis,
-                architecto quidem consequuntur delectus corrupti? Quis nihil nobis necessitatibus eos iusto asperiores
-                perferendis pariatur, praesentium fugiat harum qui? Libero possimus similique rem, doloribus molestiae
-                aut itaque nobis alias labore illum repellat veritatis deserunt, harum nam ipsa, sint dignissimos
-                dolorem omnis deleniti id eveniet dolores repudiandae ratione totam? Obcaecati odit consectetur harum
-                sunt illo autem molestiae sed, deleniti suscipit corporis adipisci voluptates quasi consequuntur
-                possimus voluptatibus, enim sapiente dolorem asperiores nemo quidem eligendi dicta. Eos consequatur non
-                natus sint quisquam ad dolore, asperiores odit a adipisci quas excepturi aut corporis qui, beatae
-                laborum quos at? Velit totam earum ullam hic architecto? Molestias illo ipsam repellat. Adipisci eaque
-                ullam tenetur saepe consequatur voluptates aut. Eveniet iusto esse illo possimus debitis perferendis
-                assumenda dicta repellendus inventore. Aperiam dolor animi provident magni, minus consectetur neque
-                omnis ratione quos harum delectus labore veniam rem, vel ipsum aut! Corrupti, eos asperiores sunt
-                quaerat nihil fuga eaque consectetur maiores tempora, facilis voluptatum eius veritatis ad omnis iusto
-                ea laboriosam illo iste voluptas beatae dicta! Consectetur consequuntur doloribus iste porro at
-                consequatur perferendis a officia maiores possimus laboriosam exercitationem asperiores, atque dolorum
-                ipsam modi, ipsum error suscipit ratione! Doloremque ipsa expedita pariatur, doloribus iste sit dolor
-                maxime eaque illo ab debitis consectetur repellendus cumque? Asperiores, neque placeat.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa vel autem inventore.
+                Voluptatum, at perferendis, assumenda praesentium nostrum alias quae minus, voluptas labore deserunt
+                omnis quia voluptate ducimus deleniti saepe quidem. Et, aliquam! Eius ea rem ut libero pariatur magnam
+                quae voluptate perferendis fugiat placeat sint dicta facere at odio sit sapiente obcaecati accusamus
+                ratione, quaerat vitae. Sit nostrum praesentium sint suscipit cupiditate dolores nam similique ad
+                aperiam totam porro tempora in autem dignissimos nobis laboriosam fuga, reprehenderit mollitia eligendi?
+                Dignissimos, perferendis autem nesciunt totam pariatur aperiam excepturi quis rem, enim sint inventore
+                fugiat omnis officiis dolorem atque at! Illo aspernatur placeat atque soluta architecto nisi nihil
+                deserunt. Maxime in qui quidem, consequuntur neque assumenda, laborum nobis officiis numquam
+                voluptatibus similique ab ad eum expedita beatae voluptatem ratione quis ipsum at tempora? Animi optio
+                quisquam quasi eveniet odit, reprehenderit iste, ad deleniti, obcaecati quibusdam inventore modi
+                sapiente laborum nihil?</p>
         </div>
     </footer>
+
 </body>
 
 </html>
